@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('images/neon-border-2.jpg');
+    background-image: url('../images/neon-border-2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;

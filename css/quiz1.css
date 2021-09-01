@@ -5,7 +5,7 @@ body {
     color: blanchedalmond;
     overflow: hidden;
     background: linear-gradient(#f4f4f4ed, white);
-    background-image: url('images/neon-border-2.jpg');
+    background-image: url('../images/neon-border-2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -73,4 +73,9 @@ body {
 .btn {
     width: 11rem;
     margin: 1.5%;
+}
+
+.back_how {
+    border-color: #E8F6EF;
+    color: #E8F6EF;
 }
