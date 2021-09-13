@@ -47,7 +47,7 @@ body {
 
 .main-head {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-top: 5%;
+    margin-top: 7%;
     font-size: 4.5rem;
     color: #E8F6EF;
     transition: transform .5s;
@@ -61,7 +61,6 @@ body {
 
 .main-head:hover {
     transform: scale(1.2);
-    /* (150% zoom)*/
 }
 
 .quiz {
@@ -82,10 +81,39 @@ body {
 
 .how_to_play
 {
-    margin-top: 3%;
+    margin-top: 2%;
     padding: 2%;
 }
 
 .how_to_play_list{
     font-size: 1.3rem;
+}
+
+@media screen and (max-width:800px){
+    .how_to_play_list{
+        margin-top: 1.5%;
+        font-size: 0.9rem;
+        margin: 3%;
+    }
+}
+
+@media screen and (max-width:542px){
+    .how_to_play_list{
+        margin-top: 1.5%;
+        font-size: 0.8rem;
+        margin: 3%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-head{
+        font-size: 2.5rem;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .nav-link{
+        margin-bottom: 0;
+    }
 }
