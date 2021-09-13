@@ -79,3 +79,13 @@ body {
     border-color: #E8F6EF;
     color: #E8F6EF;
 }
+
+.how_to_play
+{
+    margin-top: 3%;
+    padding: 2%;
+}
+
+.how_to_play_list{
+    font-size: 1.3rem;
+}
