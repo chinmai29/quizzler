@@ -80,6 +80,22 @@
     <script src="js/questions_easy.js"></script>
     <!-- Javascript file for all quiz codes -->
     <script src="js/script.js"></script>
+
+    <script>
+        var a=0;
+         document.addEventListener("visibilitychange",function(){
+             if(document.hidden==true)
+             {
+                 a++;
+                 alert("Warning!! Your Quiz will be ended after further violations");
+                 if(a>1)
+                 {
+                     location.reload();
+                 }
+                 
+             }
+         });
+     </script>
 </body>
 
 </html>
