@@ -1,0 +1,22 @@
+{
+  "name": "quizzler",
+  "version": "1.0.0",
+  "description": "A quiz app.\r This quiz has 3 Levels -  Easy, Medium and Hard.\r Each Level has 5 Questions.\r Each question should be done in 15 seconds.\r One point will be awarded for the correct answer and zero for incorrect.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinmai29/quizzler.git"
+  },
+  "author": "Chinmai Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinmai29/quizzler/issues"
+  },
+  "homepage": "https://github.com/chinmai29/quizzler#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

@@ -6,7 +6,7 @@ app.use(express.static("public"))
 
 // define the first route
 app.get("/", function(req, res) {
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/quiz.html");
 });
 
 // start the server listening for requests
